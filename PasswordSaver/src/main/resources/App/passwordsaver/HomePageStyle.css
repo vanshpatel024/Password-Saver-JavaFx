@@ -1,0 +1,191 @@
+/* Colors
+background : #180119;
+transition bg color: #ab72c3;
+right panel bg : #534e53;
+button colors : #d9d8d8;
+*/
+
+.background{
+    -fx-background-color: #180119;
+}
+
+.label{
+    -fx-text-fill: #d9d8d8;
+}
+
+.topButton {
+    -fx-background-color: #180119;
+    -fx-text-fill: #d9d8d8;
+}
+
+.topButton:hover {
+    -fx-background-color: #ab72c3;
+}
+
+.confirmButton {
+    -fx-background-color: #d9d8d8;
+}
+
+.confirmButton:hover{
+    -fx-background-color: #ab72c3;
+}
+
+.topBar{
+    -fx-background-color: #180119;
+}
+
+.topBar:hover{
+    -fx-background-color: #270128;
+}
+
+.navBar{
+    -fx-background-color: #534e53;
+    -fx-background-radius: 0 30 0 0;
+    -fx-border-radius: 0 30 0 0;
+}
+
+.navButton {
+    -fx-background-color: #534e53;
+    -fx-background-radius: 30 0 0 30;
+    -fx-border-radius: 30 0 0 30;
+    -fx-text-fill: #d9d8d8;
+}
+
+.navButton.active {
+    -fx-background-color: #180119;
+    -fx-text-fill: #ffffff;
+}
+
+.navButton:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.25, 4, 4);
+    -fx-background-color: #ab72c3;
+}
+
+.createPageBgAnchor{
+    -fx-background-color: #1d011e;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+
+.createPageBgAnchor:hover{
+    -fx-background-color: #210122;
+}
+
+.field{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-background-color: #270128;
+    -fx-text-fill: #d9d8d8;
+}
+
+.field:hover{
+    -fx-border-color: #ab72c3;
+}
+
+.basicButtons{
+    -fx-background-color: #534e53;
+    -fx-text-fill: #d9d8d8;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.basicButtons:hover{
+    -fx-background-color: #ab72c3;
+}
+
+.errorLabel{
+    -fx-text-fill: rgb(210, 0, 0);
+}
+
+.succesLabel{
+    -fx-text-fill: rgb(0, 210, 0);
+}
+
+.scrollPane{
+    -fx-background-color: #180119;
+}
+
+.displayContainer{
+    -fx-background-color: #180119;
+}
+
+/* Scrollbar Styles */
+.scroll-pane .viewport .content {
+    -fx-background-color: #180119; /* Same as the background color of the container */
+}
+
+/* Vertical Scrollbar (vbar) */
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-pref-width: 12px; /* Set width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+.scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: transparent; /* Darker background */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+/* Thumb (draggable part of the scrollbar) */
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #270128; /* Light purple for the thumb */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+/* Thumb Hover */
+.scroll-pane .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #2e012f; /* Slightly darker purple when hovering */
+}
+
+/* Scrollbar Arrow Buttons */
+.scroll-pane .scroll-bar:vertical .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+}
+
+.scroll-pane {
+    -fx-focus-color: transparent;
+    -fx-background-color: transparent;  /* Set your preferred background */
+    -fx-border-color: transparent;  /* Remove borders */
+}
+
+.scroll-pane .viewport {
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .content {
+    -fx-border-color: transparent;
+}
+
+.searchBar{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-background-color: #1d011e;
+    -fx-text-fill: #d9d8d8;
+}
+
+.searchBar:hover{
+    -fx-border-color: #ab72c3;
+    -fx-background-color: #270128;
+}
+
+.changeMyKeyAnchor{
+    -fx-background-color: #1d011e;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+
+.changeMyKeyAnchor:hover{
+    -fx-background-color: #210122;
+}
+
+.aboutUsButton{
+    -fx-background-color: #534e53;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: #d9d8d8;
+}
+
+.aboutUsButton:hover{
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 2);
+}

@@ -1,0 +1,57 @@
+/* Colors
+background : #180119;
+transition bg color: #ab72c3;
+right panel bg : #534e53;
+button colors : #d9d8d8;
+*/
+
+.background{
+    -fx-background-color: #180119;
+}
+
+.label{
+    -fx-text-fill: #d9d8d8;
+}
+
+.topButton {
+    -fx-background-color: #180119;
+    -fx-text-fill: #d9d8d8;
+}
+
+.topButton:hover {
+    -fx-background-color: #ab72c3;
+}
+
+.confirmButton {
+    -fx-background-color: #534e53;
+    -fx-text-fill: #d9d8d8;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.confirmButton:hover{
+    -fx-background-color: #ab72c3;
+}
+
+.topBar{
+    -fx-background-color: #180119;
+}
+
+.topBar:hover{
+    -fx-background-color: #270128;
+}
+
+.Fields{
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-background-color: #270128;
+    -fx-text-fill: #d9d8d8;
+}
+
+.Fields:hover{
+    -fx-border-color: #ab72c3;
+}
+
+.errorLabel{
+    -fx-text-fill: rgb(210, 0, 0);
+}
